@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 	<RedScare.ReinforcementsDef>
+		<defName>RA_Reinforcements</defName>
+		<reinforcementCooldownDays>0.1~0.2</reinforcementCooldownDays>
+		<reinforcementIncidents>
+			<li>RA_ReinforcementsArrived</li>
+		</reinforcementIncidents>
+		<reinforceOnlyIfPlayerIsOfFaction>
+			<li>PlayerColony</li>
+		</reinforceOnlyIfPlayerIsOfFaction>
+	</RedScare.ReinforcementsDef>
+
+
+</Defs>

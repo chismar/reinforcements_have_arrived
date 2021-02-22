@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RedScare.ReinforcementsIncidentDef>
+    <defName>RA_ReinforcementsArrived</defName>
+    <label>reinforcements have arrived</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>RedScare.IncidentWorker_Reinforcements</workerClass>
+    <baseChance>0</baseChance>
+    <minRefireDays>0</minRefireDays>
+    <letterDef>ThreatSmall</letterDef>
+    <letterLabel>reinforcements have arrived</letterLabel>
+    <letterText>reinforcements have arrived</letterText>
+    <airSupportSettings>
+      <shuttleDef>RA_Shuttle</shuttleDef>
+      <shuttleSkyfallerIncoming>RA_ShuttleIncoming</shuttleSkyfallerIncoming>
+			<pawnGroupMakers>
+				<li>
+					<kindDef>Combat</kindDef>
+					<commonality>100</commonality>
+					<options>
+            <Town_Guard>1</Town_Guard>
+					</options>
+				</li>
+			</pawnGroupMakers>
+			<points>500</points>
+    </airSupportSettings>
+  </RedScare.ReinforcementsIncidentDef>
+  
+</Defs>
