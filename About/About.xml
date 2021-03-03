@@ -25,7 +25,7 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>brrainz.harmony</li>
-		<packageId>RedScareFramework.RedScareFramework</packageId>
+		<li>RedScareFramework.RedScareFramework</li>
 	  </loadAfter>
 	<description>
 		Do you think casualties are normal in war?
