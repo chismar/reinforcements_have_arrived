@@ -3,7 +3,7 @@
   
   <RedScare.ReinforcementsIncidentDef>
     <defName>RA_ReinforcementsArrived</defName>
-    <label>reinforcements have arrived</label>
+    <label>Reinforcements!</label>
     <category>Misc</category>
     <targetTags>
       <li>Map_PlayerHome</li>
@@ -12,8 +12,8 @@
     <baseChance>0</baseChance>
     <minRefireDays>0</minRefireDays>
     <letterDef>ThreatSmall</letterDef>
-    <letterLabel>reinforcements have arrived</letterLabel>
-    <letterText>reinforcements have arrived</letterText>
+    <letterLabel>Reinforcements!</letterLabel>
+    <letterText>A dropship is landing in fresh recruits. More meat for the grinder.</letterText>
     <airSupportSettings>
       <shuttleDef>RA_Shuttle</shuttleDef>
       <shuttleSkyfallerIncoming>RA_ShuttleIncoming</shuttleSkyfallerIncoming>
@@ -22,7 +22,7 @@
 					<kindDef>Combat</kindDef>
 					<commonality>100</commonality>
 					<options>
-            <Town_Guard>1</Town_Guard>
+		<StrangerInBlack>1</StrangerInBlack>
 					</options>
 				</li>
 			</pawnGroupMakers>

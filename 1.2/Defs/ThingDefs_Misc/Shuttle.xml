@@ -3,25 +3,25 @@
 
   <ThingDef Name="RA_ShuttleBase" ParentName="BuildingBase">
     <defName>RA_Shuttle</defName>
-    <label>shuttle</label>
-    <description>A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system.</description>
+    <label>Dropship</label>
+    <description>The DR-4 Viking-class dropship is designed for transit between surface and orbit, or between moons of a planetary system.</description>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>50</pathCost>
     <blockWind>true</blockWind>
     <passability>Impassable</passability>
     <fillPercent>1.0</fillPercent>
-    <size>(5,3)</size>
+    <size>(12,6)</size>
     <graphicData>
-      <texPath>Things/Building/Misc/Shuttle</texPath>
+      <texPath>Things/Building/Misc/Dropship_landed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(6,3)</drawSize>
+      <drawSize>(15,6)</drawSize>
       <shadowData>
         <volume>(4.1, 1.0, 1.8)</volume>
         <offset>(0, 0, -0.1)</offset>
       </shadowData>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>3000</MaxHitPoints>
       <Flammability>1</Flammability>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -68,16 +68,16 @@
   </ThingDef>
 
   <ThingDef Name="RA_ShuttleSkyfallerBase" ParentName="SkyfallerBase" Abstract="True">
-    <size>(5,3)</size>
+    <size>(12,6)</size>
     <graphicData>
-      <texPath>Things/Building/Misc/Shuttle</texPath>
+      <texPath>Things/Building/Misc/Dropship_flying</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(6,3)</drawSize>
+      <drawSize>(15,6)</drawSize>
     </graphicData>
     <skyfaller>
       <movementType>Decelerate</movementType>
       <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
-      <shadowSize>(5.5,3.5)</shadowSize>
+      <shadowSize>(12.5,4.5)</shadowSize>
       <motesPerCell>1</motesPerCell>
     </skyfaller>
   </ThingDef>
@@ -130,7 +130,7 @@
       <ticksToImpactRange>-40~-15</ticksToImpactRange>
       <moteSpawnTime>0.05</moteSpawnTime>
       <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
-      <shadowSize>(5.5,3.5)</shadowSize>
+      <shadowSize>(12.5,4.5)</shadowSize>
       <motesPerCell>1</motesPerCell>
       <angleCurve>
         <points>

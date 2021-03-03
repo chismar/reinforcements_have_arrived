@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Starship Troopers Remastered - Apparel</li>
+    </mods>
+	<match Class="PatchOperationReplace">
+	  <xpath>/Defs/RedScare.ReinforcementsIncidentDef[defName = "RA_ReinforcementsArrived"]/airSupportSettings</xpath>
+	  <value>
+		<airSupportSettings>
+		<shuttleDef>RA_Shuttle</shuttleDef>
+		<shuttleSkyfallerIncoming>RA_ShuttleIncoming</shuttleSkyfallerIncoming>
+			<pawnGroupMakers>
+				<li>
+					<kindDef>Combat</kindDef>
+					<commonality>100</commonality>
+					<options>
+            <Recruit>1</Recruit>
+					</options>
+				</li>
+			</pawnGroupMakers>
+			<points>500</points>
+		</airSupportSettings>
+	  </value>
+	  </match>
+	</Operation> 
+</Patch>
