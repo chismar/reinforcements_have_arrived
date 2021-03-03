@@ -6,10 +6,6 @@
 	<packageId>ReinforcementsHaveArrived</packageId>
 	<modDependencies>
 		<li>
-		</li>
-	</modDependencies>
-	<modDependencies>
-		<li>
 		  <packageId>brrainz.harmony</packageId>
 		  <displayName>Harmony</displayName>
 		  <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
