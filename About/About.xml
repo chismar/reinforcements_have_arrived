@@ -4,12 +4,39 @@
 	<author>Reaperisonline;Chismar</author>
 	<supportedVersions><li>1.2</li></supportedVersions>
 	<packageId>ReinforcementsHaveArrived</packageId>
-	<description>
-		Reinforcements have arrived!
-	</description>
 	<modDependencies>
 		<li>
 			<packageId>RedScareFramework.RedScareFramework</packageId>
 		</li>
 	</modDependencies>
+	<description>
+		Do you think casualties are normal in war?
+		
+		Do you throw your colonists carelessly into raids?
+		
+		Do you feel that itch to use the resurrect dev command when your pawn dies?
+		
+		Do you try so hard to recruit prisoners but they keep breaking out and dying?
+		
+		Well then I have the solution for you
+		
+		Presenting:
+		Reinforcements have arrived!
+		[img]https://i.imgur.com/8k2CVl1.gif[/img]
+		- A dropship will regularly land fresh colonists every X days.
+		- The dropship will prefer to land in a designated landing zone.
+		- Customizable modsettings to change the frequency and ammount of reinforcements.
+		- Artwork inspired by Starship Troopers
+		- Fully compatible with the SSTHD mods. Your troopers already have gear.
+		- Vanilla playthrough compatible, you do not need the SSTHD mods. They spawn as Stranger In Black instead of (SSTHD) Troopers.
+		- Need more dropships? Well too bad. Best you can do is dev mode incident x10. But that's cheating.
+		
+		Due to this being a commissioned mod, I will most likely not be supporting 1.0 compatbility. Should work fine with 1.1.
+		
+		Known bugs/incompatibilities:
+		- Vanilla expanded Insectoids: for some reason, when you use the Mercenaries start and SSTHD apparel, the pawns will deploy without uniform, only armor and helmet. Dont ask me why, no clue. If anyone knows, feel free to contact me.
+	
+		Reaperisonline - Commisioner, artwork, patching.
+		Chismar - C# and XML programming
+	</description>
 </ModMetaData>
